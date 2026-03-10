@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+### 1.1.2
+
+- Fixed the [line-of-sight option](https://agents.kaijusolutions.ca/api/KaijuSolutions.Agents.Sensors.KaijuVisionSensor-1.html#KaijuSolutions_Agents_Sensors_KaijuVisionSensor_1_lineOfSight "KaijuVisionSensor - lineOfSight") on the [`KaijuVisionSensor`](https://agents.kaijusolutions.ca/api/KaijuSolutions.Agents.Sensors.KaijuVisionSensor-1.html "KaijuVisionSensor").
+
 ### 1.1.1
 
 - Fixed the ["Capture the Flag" exercise](https://agents.kaijusolutions.ca/manual/capture-the-flag.html "Capture the Flag")'s [`FlagVisionSensor`](https://agents.kaijusolutions.ca/api/KaijuSolutions.Agents.Exercises.CTF.FlagVisionSensor.html "FlagVisionSensor") displaying as a [`HealthVisionSensor`](https://agents.kaijusolutions.ca/api/KaijuSolutions.Agents.Exercises.CTF.HealthVisionSensor.html "HealthVisionSensor") in the inspector.
