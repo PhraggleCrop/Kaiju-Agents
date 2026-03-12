@@ -900,6 +900,31 @@ references:
   commentId: T:KaijuSolutions.Agents.Exercises.CTF.Flag
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag
   nameWithType: Flag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  name: AtBase(Flag)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_AtBase_KaijuSolutions_Agents_Exercises_CTF_Flag_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  nameWithType: Flag.AtBase(Flag)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase(System.Boolean)
+  name: AtBase(Boolean)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_AtBase_System_Boolean_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase(System.Boolean)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase(System.Boolean)
+  nameWithType: Flag.AtBase(Boolean)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase*
+  name: AtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_AtBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.AtBase
+  nameWithType: Flag.AtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Base(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  name: Base(Flag)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Base_KaijuSolutions_Agents_Exercises_CTF_Flag_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.Base(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Base(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  nameWithType: Flag.Base(Flag)
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Base(System.Boolean)
   name: Base(Boolean)
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Base_System_Boolean_
@@ -913,6 +938,12 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Base
   nameWithType: Flag.Base
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Base3(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  name: Base3(Flag)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Base3_KaijuSolutions_Agents_Exercises_CTF_Flag_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.Base3(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Base3(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  nameWithType: Flag.Base3(Flag)
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Base3(System.Boolean)
   name: Base3(Boolean)
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Base3_System_Boolean_
@@ -926,6 +957,63 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Base3
   nameWithType: Flag.Base3
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  name: BeingCarried(Flag)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_BeingCarried_KaijuSolutions_Agents_Exercises_CTF_Flag_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  nameWithType: Flag.BeingCarried(Flag)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried(System.Boolean)
+  name: BeingCarried(Boolean)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_BeingCarried_System_Boolean_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried(System.Boolean)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried(System.Boolean)
+  nameWithType: Flag.BeingCarried(Boolean)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried*
+  name: BeingCarried
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_BeingCarried_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.BeingCarried
+  nameWithType: Flag.BeingCarried
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  name: Carrier(Flag)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Carrier_KaijuSolutions_Agents_Exercises_CTF_Flag_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  nameWithType: Flag.Carrier(Flag)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier(System.Boolean)
+  name: Carrier(Boolean)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Carrier_System_Boolean_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier(System.Boolean)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier(System.Boolean)
+  nameWithType: Flag.Carrier(Boolean)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier*
+  name: Carrier
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Carrier_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.Carrier
+  nameWithType: Flag.Carrier
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  name: DistanceToBase(Flag)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_DistanceToBase_KaijuSolutions_Agents_Exercises_CTF_Flag_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase(KaijuSolutions.Agents.Exercises.CTF.Flag)
+  nameWithType: Flag.DistanceToBase(Flag)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase(System.Boolean)
+  name: DistanceToBase(Boolean)
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_DistanceToBase_System_Boolean_
+  commentId: M:KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase(System.Boolean)
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase(System.Boolean)
+  nameWithType: Flag.DistanceToBase(Boolean)
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase*
+  name: DistanceToBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_DistanceToBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.DistanceToBase
+  nameWithType: Flag.DistanceToBase
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.Drop
   name: Drop()
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_Drop
@@ -991,6 +1079,19 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOne
   nameWithType: Flag.TeamOne
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneAtBase
+  name: TeamOneAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneAtBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneAtBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneAtBase
+  nameWithType: Flag.TeamOneAtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneAtBase*
+  name: TeamOneAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneAtBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneAtBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneAtBase
+  nameWithType: Flag.TeamOneAtBase
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBase
   name: TeamOneBase
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneBase
@@ -1017,12 +1118,64 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBase3
   nameWithType: Flag.TeamOneBase3
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBeingCarried
+  name: TeamOneBeingCarried
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneBeingCarried
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBeingCarried
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBeingCarried
+  nameWithType: Flag.TeamOneBeingCarried
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBeingCarried*
+  name: TeamOneBeingCarried
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneBeingCarried_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBeingCarried
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneBeingCarried
+  nameWithType: Flag.TeamOneBeingCarried
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneCarrier
+  name: TeamOneCarrier
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneCarrier
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneCarrier
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneCarrier
+  nameWithType: Flag.TeamOneCarrier
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneCarrier*
+  name: TeamOneCarrier
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneCarrier_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneCarrier
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneCarrier
+  nameWithType: Flag.TeamOneCarrier
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneDistanceToBase
+  name: TeamOneDistanceToBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneDistanceToBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneDistanceToBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneDistanceToBase
+  nameWithType: Flag.TeamOneDistanceToBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneDistanceToBase*
+  name: TeamOneDistanceToBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneDistanceToBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneDistanceToBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneDistanceToBase
+  nameWithType: Flag.TeamOneDistanceToBase
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneFlag
   name: TeamOneFlag
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamOneFlag
   commentId: F:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneFlag
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamOneFlag
   nameWithType: Flag.TeamOneFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoAtBase
+  name: TeamTwoAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoAtBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoAtBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoAtBase
+  nameWithType: Flag.TeamTwoAtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoAtBase*
+  name: TeamTwoAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoAtBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoAtBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoAtBase
+  nameWithType: Flag.TeamTwoAtBase
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBase
   name: TeamTwoBase
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoBase
@@ -1049,6 +1202,45 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBase3
   nameWithType: Flag.TeamTwoBase3
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBeingCarried
+  name: TeamTwoBeingCarried
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoBeingCarried
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBeingCarried
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBeingCarried
+  nameWithType: Flag.TeamTwoBeingCarried
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBeingCarried*
+  name: TeamTwoBeingCarried
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoBeingCarried_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBeingCarried
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoBeingCarried
+  nameWithType: Flag.TeamTwoBeingCarried
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoCarrier
+  name: TeamTwoCarrier
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoCarrier
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoCarrier
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoCarrier
+  nameWithType: Flag.TeamTwoCarrier
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoCarrier*
+  name: TeamTwoCarrier
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoCarrier_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoCarrier
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoCarrier
+  nameWithType: Flag.TeamTwoCarrier
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoDistanceToBase
+  name: TeamTwoDistanceToBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoDistanceToBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoDistanceToBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoDistanceToBase
+  nameWithType: Flag.TeamTwoDistanceToBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoDistanceToBase*
+  name: TeamTwoDistanceToBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoDistanceToBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoDistanceToBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoDistanceToBase
+  nameWithType: Flag.TeamTwoDistanceToBase
 - uid: KaijuSolutions.Agents.Exercises.CTF.Flag.TeamTwoFlag
   name: TeamTwoFlag
   href: api/KaijuSolutions.Agents.Exercises.CTF.Flag.html#KaijuSolutions_Agents_Exercises_CTF_Flag_TeamTwoFlag
@@ -1401,6 +1593,58 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.CanAttack
   nameWithType: Trooper.CanAttack
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyBase
+  name: DistanceEnemyBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceEnemyBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyBase
+  nameWithType: Trooper.DistanceEnemyBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyBase*
+  name: DistanceEnemyBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceEnemyBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyBase
+  nameWithType: Trooper.DistanceEnemyBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyFlag
+  name: DistanceEnemyFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceEnemyFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyFlag
+  nameWithType: Trooper.DistanceEnemyFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyFlag*
+  name: DistanceEnemyFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceEnemyFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceEnemyFlag
+  nameWithType: Trooper.DistanceEnemyFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamBase
+  name: DistanceTeamBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceTeamBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamBase
+  nameWithType: Trooper.DistanceTeamBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamBase*
+  name: DistanceTeamBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceTeamBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamBase
+  nameWithType: Trooper.DistanceTeamBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamFlag
+  name: DistanceTeamFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceTeamFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamFlag
+  nameWithType: Trooper.DistanceTeamFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamFlag*
+  name: DistanceTeamFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_DistanceTeamFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.DistanceTeamFlag
+  nameWithType: Trooper.DistanceTeamFlag
 - uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyBase
   name: EnemyBase
   href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyBase
@@ -1427,6 +1671,71 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyBase3
   nameWithType: Trooper.EnemyBase3
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyCarryingFlag
+  name: EnemyCarryingFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyCarryingFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyCarryingFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyCarryingFlag
+  nameWithType: Trooper.EnemyCarryingFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyCarryingFlag*
+  name: EnemyCarryingFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyCarryingFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyCarryingFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyCarryingFlag
+  nameWithType: Trooper.EnemyCarryingFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlag
+  name: EnemyFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlag
+  nameWithType: Trooper.EnemyFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlag*
+  name: EnemyFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlag
+  nameWithType: Trooper.EnemyFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagAtBase
+  name: EnemyFlagAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlagAtBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagAtBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagAtBase
+  nameWithType: Trooper.EnemyFlagAtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagAtBase*
+  name: EnemyFlagAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlagAtBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagAtBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagAtBase
+  nameWithType: Trooper.EnemyFlagAtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition
+  name: EnemyFlagPosition
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlagPosition
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition
+  nameWithType: Trooper.EnemyFlagPosition
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition*
+  name: EnemyFlagPosition
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlagPosition_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition
+  nameWithType: Trooper.EnemyFlagPosition
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition3
+  name: EnemyFlagPosition3
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlagPosition3
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition3
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition3
+  nameWithType: Trooper.EnemyFlagPosition3
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition3*
+  name: EnemyFlagPosition3
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_EnemyFlagPosition3_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition3
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.EnemyFlagPosition3
+  nameWithType: Trooper.EnemyFlagPosition3
 - uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.FlagPosition
   name: FlagPosition
   href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_FlagPosition
@@ -1453,6 +1762,19 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.HasAmmo
   nameWithType: Trooper.HasAmmo
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.HasFlag
+  name: HasFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_HasFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.HasFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.HasFlag
+  nameWithType: Trooper.HasFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.HasFlag*
+  name: HasFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_HasFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.HasFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.HasFlag
+  nameWithType: Trooper.HasFlag
 - uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.Health
   name: Health
   href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_Health
@@ -1652,6 +1974,71 @@ references:
   isSpec: "True"
   fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TakeDamage
   nameWithType: Trooper.TakeDamage
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamCarryingFlag
+  name: TeamCarryingFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamCarryingFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamCarryingFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamCarryingFlag
+  nameWithType: Trooper.TeamCarryingFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamCarryingFlag*
+  name: TeamCarryingFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamCarryingFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamCarryingFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamCarryingFlag
+  nameWithType: Trooper.TeamCarryingFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlag
+  name: TeamFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlag
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlag
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlag
+  nameWithType: Trooper.TeamFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlag*
+  name: TeamFlag
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlag_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlag
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlag
+  nameWithType: Trooper.TeamFlag
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagAtBase
+  name: TeamFlagAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlagAtBase
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagAtBase
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagAtBase
+  nameWithType: Trooper.TeamFlagAtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagAtBase*
+  name: TeamFlagAtBase
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlagAtBase_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagAtBase
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagAtBase
+  nameWithType: Trooper.TeamFlagAtBase
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition
+  name: TeamFlagPosition
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlagPosition
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition
+  nameWithType: Trooper.TeamFlagPosition
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition*
+  name: TeamFlagPosition
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlagPosition_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition
+  nameWithType: Trooper.TeamFlagPosition
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition3
+  name: TeamFlagPosition3
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlagPosition3
+  commentId: P:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition3
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition3
+  nameWithType: Trooper.TeamFlagPosition3
+- uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition3*
+  name: TeamFlagPosition3
+  href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamFlagPosition3_
+  commentId: Overload:KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition3
+  isSpec: "True"
+  fullName: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamFlagPosition3
+  nameWithType: Trooper.TeamFlagPosition3
 - uid: KaijuSolutions.Agents.Exercises.CTF.Trooper.TeamOne
   name: TeamOne
   href: api/KaijuSolutions.Agents.Exercises.CTF.Trooper.html#KaijuSolutions_Agents_Exercises_CTF_Trooper_TeamOne
