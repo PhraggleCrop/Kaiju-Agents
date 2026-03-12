@@ -29,7 +29,7 @@ public class ReturnToBase : Node
         }
 
         // Determine the trooper's own base
-        Vector3 basePosition = trooper.TeamOne ? Flag.TeamOneBase3 : Flag.TeamTwoBase3;
+        Vector3 basePosition = trooper.OwnBase3;
 
         // Move toward the base
         trooper_agent.PathFollow(basePosition);

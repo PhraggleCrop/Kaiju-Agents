@@ -13,7 +13,7 @@ public class TeamFlagGrabbed : Node
     public override NodeState Evaluate()
     {
         //Get our team's flag
-        Flag teamFlag = trooper.TeamOne ? Flag.TeamOneFlag : Flag.TeamTwoFlag;
+        Flag teamFlag = trooper.TeamFlag;
 
         if (teamFlag == null)
         {
