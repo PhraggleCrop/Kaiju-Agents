@@ -15,6 +15,13 @@ namespace KaijuSolutions.Agents.Exercises.CTF
     [AddComponentMenu("Kaiju Solutions/Agents/Exercises/Capture the Flag/Flag", 35)]
     public class Flag : Pickup
     {
+
+        //Holder edits
+        private Trooper _holder;
+        public Trooper Holder => _holder;
+        public bool IsGrabbed => _holder != null;
+
+
         /// <summary>
         /// Get the location of a flag's base.
         /// </summary>
@@ -446,10 +453,13 @@ namespace KaijuSolutions.Agents.Exercises.CTF
             else
             {
                 // Otherwise, it is being picked up.
+                _holder = trooper;
+
                 t.parent = trooper.FlagPosition;
                 t.localPosition = Vector3.zero;
                 t.localRotation = Quaternion.identity;
-                
+
+
                 // Disable all triggers.
                 foreach (Collider c in Colliders)
                 {
@@ -466,6 +476,8 @@ namespace KaijuSolutions.Agents.Exercises.CTF
         public void Return()
         {
             Transform t = transform;
+
+            _holder = null;
             t.parent = null;
             t.position = _position.Expand();
             t.rotation = _rotation;
@@ -483,6 +495,8 @@ namespace KaijuSolutions.Agents.Exercises.CTF
         public void Drop()
         {
             Transform t = transform;
+
+            _holder = null;
             t.parent = null;
             Vector3 p = t.position;
             t.position = new(p.x, 0, p.z);

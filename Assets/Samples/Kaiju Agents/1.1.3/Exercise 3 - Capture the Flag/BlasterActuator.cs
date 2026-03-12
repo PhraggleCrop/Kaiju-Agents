@@ -18,11 +18,18 @@ namespace KaijuSolutions.Agents.Exercises.CTF
             get => _ammo;
             set => _ammo = Mathf.Clamp(0, value, CaptureTheFlagManager.Ammo);
         }
-        
+
+
+        public KaijuActuatorState Fire()
+        {
+            // Protected Run() is now callable inside the class
+            return base.Run();
+        }
+
         /// <summary>
         /// The ammo for this blaster.
         /// </summary>
-        private int _ammo;
+        public int _ammo;
         
         /// <summary>
         /// The <see cref="Trooper"/> this is attached to.

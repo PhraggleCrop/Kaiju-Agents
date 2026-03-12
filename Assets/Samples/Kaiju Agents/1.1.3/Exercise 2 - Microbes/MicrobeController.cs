@@ -1,5 +1,6 @@
 ﻿using KaijuSolutions.Agents.Sensors;
 using UnityEngine;
+using BehaviourTree;
 
 namespace KaijuSolutions.Agents.Exercises.Microbes
 {
@@ -11,6 +12,9 @@ namespace KaijuSolutions.Agents.Exercises.Microbes
     [AddComponentMenu("Kaiju Solutions/Agents/Exercises/Microbes/Microbe Controller", 18)]
     public class MicrobeController : KaijuController
     {
+
+        private MicrobeTree microbeTree;
+
         /// <summary>
         /// The <see cref="Microbe"/> this is controlling.
         /// </summary>
@@ -18,37 +22,41 @@ namespace KaijuSolutions.Agents.Exercises.Microbes
         [HideInInspector]
         [SerializeField]
         private Microbe microbe;
-        
+        private BehaviourTree.Tree Microbetree;
         /// <summary>
         /// Called after the <see cref="microbe"/> has mated.
         /// </summary>
         /// <param name="mate">The <see cref="Microbe"/> this mated with.</param>
         private void OnMate(Microbe mate) { }
-        
+
         /// <summary>
         /// Called after the <see cref="microbe"/> has eaten.
         /// </summary>
         /// <param name="ate">The <see cref="Microbe"/> this ate.</param>
         private void OnEat(Microbe ate) { }
-        
+
         /// <summary>
         /// Called after the <see cref="microbe"/> has been eaten.
         /// </summary>
         /// <param name="eater">The <see cref="Microbe"/> which ate this.</param>
         private void OnEaten(Microbe eater) { }
-        
+
         /// <summary>
         /// Called when a <see cref="MicrobeVisionSensor"/> has been run.
         /// </summary>
         /// <param name="microbeSensor">The <see cref="MicrobeVisionSensor"/> which was run.</param>
         private void OnMicrobeSensor(MicrobeVisionSensor microbeSensor) { }
-        
+
         /// <summary>
         /// Called when a <see cref="EnergyVisionSensor"/> has been run.
         /// </summary>
         /// <param name="energySensor">The <see cref="EnergyVisionSensor"/> which was run.</param>
-        private void OnEnergySensor(EnergyVisionSensor energySensor) { }
-        
+        private void OnEnergySensor(EnergyVisionSensor energySensor)
+        {
+
+
+        }
+
         /// <summary>
         /// Callback for when a <see cref="KaijuSensor"/> has been run.
         /// </summary>
@@ -72,14 +80,14 @@ namespace KaijuSolutions.Agents.Exercises.Microbes
         protected override void OnValidate()
         {
             base.OnValidate();
-            
+
             // The microbe must on this object.
             if (microbe == null || microbe.transform != transform)
             {
                 microbe = GetComponent<Microbe>();
             }
         }
-        
+
         /// <summary>
         /// This function is called when the object becomes enabled and active.
         /// </summary>
@@ -93,29 +101,40 @@ namespace KaijuSolutions.Agents.Exercises.Microbes
                     Debug.LogError("Microbe Controller - No microbe on this GameObject.", this);
                 }
             }
-            
+
             if (microbe != null)
             {
                 microbe.OnMate += OnMate;
                 microbe.OnEat += OnEat;
                 microbe.OnEaten += OnEaten;
             }
-            
+
             base.OnEnable();
+
+            microbeTree = new MicrobeTree(microbe);
         }
-        
+
+        private void Update()
+        {
+            // Tick the microbe's behaviour tree each frame
+            microbeTree?.Tick();
+        }
+
+
+
+
         /// <summary>
         /// This function is called when the behaviour becomes disabled.
         /// </summary>
         protected override void OnDisable()
         {
             base.OnDisable();
-            
+
             if (microbe == null)
             {
                 return;
             }
-            
+
             microbe.OnMate -= OnMate;
             microbe.OnEat -= OnEat;
             microbe.OnEaten -= OnEaten;

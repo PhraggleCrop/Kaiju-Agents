@@ -277,11 +277,11 @@ namespace KaijuSolutions.Agents.Exercises.CTF
         /// The <see cref="BlasterActuator"/> of the trooper.
         /// </summary>
         private BlasterActuator _blaster;
-        
+
         /// <summary>
         /// The <see cref="Flag"/> being carried.
         /// </summary>
-        private Flag _flag;
+        public Flag _flag;
         
         /// <summary>
         /// If we have the enemy's <see cref="Flag"/>.
@@ -580,6 +580,7 @@ namespace KaijuSolutions.Agents.Exercises.CTF
                 // Handle it as the proper type.
                 if (number is HealthPickup health)
                 {
+                    Debug.Log("HEALTH");
                     // No point in using it if we already have the maximum health.
                     int max = CaptureTheFlagManager.Health;
                     if (Health >= max)
