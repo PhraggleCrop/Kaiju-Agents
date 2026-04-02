@@ -16,20 +16,7 @@ namespace KaijuSolutions.Agents.Exercises.CTF
         private BlasterActuator blaster;
         public string strategy = "DEFEND";
 
-        //Utility Variables
-        float healUtility = 0;
-        float ammoUtility = 0;
-        float advantageUtility = 0;
 
-        float defaultUtility = 0.5f;
-        
-
-        void UpdateUtilities()
-        {
-            healUtility = (100f - trooper.Health)/100f;
-            advantageUtility = nearbyTeammates.Count * 0.15f;
-            ammoUtility = 1f - ((blaster._ammo+ CaptureTheFlagManager.Ammo) / (CaptureTheFlagManager.Ammo*2.0f));
-        }
 
 
         void Start()
@@ -41,54 +28,12 @@ namespace KaijuSolutions.Agents.Exercises.CTF
 
             blaster = GetComponentInChildren<BlasterActuator>();
 
-            if (Random.value > 0.5f)
-            {
-                strategy = "ATTACK";
-            }
         }
 
-        void UpdateStrategy()
-        {
-            UpdateUtilities();
-
-            float distToEnemyFlag = Vector3.Distance(trooper_agent.transform.position, trooper.EnemyFlag);
-            float maxDist = Vector3.Distance(trooper.TeamFlag, trooper.EnemyFlag);
-
-            // 0 = at own base, 1 = at enemy base
-            float flagProximity = 1f - (distToEnemyFlag / maxDist);
-            float attackUtility = advantageUtility+ flagProximity/2f;
-            float healScore = healUtility;
-            float patrolScore = defaultUtility;
-            float reloadScore = ammoUtility;
-
-
-
-            if (healScore > attackUtility && healScore > patrolScore && healScore > reloadScore)
-            {
-                strategy = "HEAL";
-            }
-            else if (reloadScore> healScore && reloadScore> patrolScore) {
-                strategy = "RELOAD";
-
-
-            }
-            else if (attackUtility > patrolScore)
-            {
-                strategy = "ATTACK";
-            }
-            else
-            {
-                strategy = "DEFEND";
-            }
-        }
 
 
         void Update()
         {
-            trooperTree?.Tick();
-            UpdateStrategy();
-
-            Debug.Log(strategy);
         }
 
 

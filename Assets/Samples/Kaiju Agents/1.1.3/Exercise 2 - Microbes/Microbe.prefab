@@ -190,13 +190,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2169226680292673670}
-  - component: {fileID: -7285491202088821057}
   - component: {fileID: 1245224778185196274}
   - component: {fileID: 214782256947000050}
   - component: {fileID: 8428177763666846322}
   - component: {fileID: 5871291829752055646}
   - component: {fileID: 1584163208989239398}
   - component: {fileID: 4048541148613101826}
+  - component: {fileID: 5430993129003231646}
+  - component: {fileID: 544380192499321455}
   m_Layer: 0
   m_Name: Microbe
   m_TagString: Untagged
@@ -220,20 +221,6 @@ Transform:
   - {fileID: 6999033946653022446}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7285491202088821057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8695107738923841220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a94a460c24a641d59e7b315a5017eb68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: com.kaijusolutions.agents.exercises.microbes::KaijuSolutions.Agents.Exercises.Microbes.MicrobeController
-  agent: {fileID: 5871291829752055646}
-  microbe: {fileID: 8428177763666846322}
 --- !u!114 &1245224778185196274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a70e9f35cb94d40abe99fd2f940e607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: com.kaijusolutions.agents.exercises.microbes::KaijuSolutions.Agents.Exercises.Microbes.MicrobeVisionSensor
-  automatic: 1
+  automatic: 0
   distance: 20
   angle: 180
   lineOfSight: 0
@@ -366,3 +353,55 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &5430993129003231646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8695107738923841220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Policies.BehaviorParameters
+  m_BrainParameters:
+    VectorObservationSize: 24
+    NumStackedVectorObservations: 1
+    m_ActionSpec:
+      m_NumContinuousActions: 2
+      BranchSizes: 
+    VectorActionSize: 02000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+    hasUpgradedBrainParametersWithActionSpec: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: My Behavior
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_DeterministicInference: 0
+  m_ObservableAttributeHandling: 0
+--- !u!114 &544380192499321455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8695107738923841220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49d876ec01277f46bb2a3dcf6b0f32f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: com.kaijusolutions.agents.exercises.microbes::Unity.MLAgents.MLMICROBESCRIPT
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  microbeSensor: {fileID: 0}
+  energySensor: {fileID: 0}
+  maxMicrobesObserved: 3
+  moveForce: 10
+  maxSpeed: 5

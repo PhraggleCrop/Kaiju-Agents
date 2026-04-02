@@ -1,15 +1,17 @@
-﻿{
-  "name": "com.kaijusolutions.agents.exercises.microbes",
-  "references": [
-    "com.kaijusolutions.agents"
-  ],
-  "includePlatforms": [],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "autoReferenced": true,
-  "defineConstraints": [],
-  "versionDefines": [],
-  "noEngineReferences": false
+{
+    "name": "com.kaijusolutions.agents.exercises.microbes",
+    "rootNamespace": "",
+    "references": [
+        "com.kaijusolutions.agents",
+        "Unity.ML-Agents"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
