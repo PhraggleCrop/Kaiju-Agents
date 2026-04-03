@@ -50,12 +50,12 @@ namespace Unity.MLAgents
 
         public override void CollectObservations(VectorSensor sensor)
         {
-            // ===== SELF =====
+            //Add observations for microbe energy, and velocities
             sensor.AddObservation(microbe.Energy / 100f);
             sensor.AddObservation(rb.linearVelocity.x / maxSpeed);
             sensor.AddObservation(rb.linearVelocity.z / maxSpeed);
 
-            // ===== MULTI MICROBE VISION =====
+            //Vision sensor getting
             if (microbeSensor != null && microbeSensor.HasObserved)
             {
                 int count = microbeSensor.SortDistance(microbeCache);
@@ -69,18 +69,19 @@ namespace Unity.MLAgents
                         Vector3 dir = (target.transform.position - transform.position).normalized;
                         float dist = Vector3.Distance(transform.position, target.transform.position) / microbeSensor.Distance;
 
+                        //Observe direction to detected target and their energy
                         sensor.AddObservation(dir.x);
                         sensor.AddObservation(dir.z);
                         sensor.AddObservation(target.Energy / 100f);
                         sensor.AddObservation(dist);
 
-                        // Key learning signals
-                        sensor.AddObservation(microbe.Energy > target.Energy ? 1f : 0f); // can eat
-                        sensor.AddObservation(microbe.Compatible(target) ? 1f : 0f);     // can mate
+                        //Observation if we can eat or mate with them
+                        sensor.AddObservation(microbe.Energy > target.Energy ? 1f : 0f);
+                        sensor.AddObservation(microbe.Compatible(target) ? 1f : 0f);
                     }
                     else
                     {
-                        // Empty slot
+                        //Empty if nothing detected
                         sensor.AddObservation(0f);
                         sensor.AddObservation(0f);
                         sensor.AddObservation(0f);
